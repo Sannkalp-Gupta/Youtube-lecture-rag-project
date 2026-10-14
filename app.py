@@ -13,8 +13,21 @@
 # ==============================================================================
 
 import os
-import streamlit as st
+import sys
 from dotenv import load_dotenv
+
+# Try importing Streamlit (installed on Streamlit Cloud)
+try:
+    import streamlit as st  # type: ignore
+except ImportError:
+    print("\n" + "=" * 65)
+    print("   Notice: Streamlit is hosted in the Cloud!")
+    print("   👉 Open your live Web App at:")
+    print("      https://youtube-lecture-rag-project.streamlit.app")
+    print("\n   To run the local terminal assistant on your Mac:")
+    print("      python3 main.py")
+    print("=" * 65 + "\n")
+    sys.exit(0)
 
 # Import the working functions from Phase 1 & 2 in main.py
 from main import (
