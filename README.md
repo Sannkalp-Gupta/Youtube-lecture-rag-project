@@ -75,8 +75,8 @@ An in-memory **Retrieval-Augmented Generation (RAG)** pipeline that extracts tra
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/youtube-lecture-rag.git
-cd youtube-lecture-rag
+git clone https://github.com/Sannkalp-Gupta/Youtube-lecture-rag-project.git
+cd Youtube-lecture-rag-project
 ```
 
 ### 3. Create and Activate Virtual Environment
