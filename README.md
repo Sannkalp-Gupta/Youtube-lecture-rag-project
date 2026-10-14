@@ -1,9 +1,11 @@
 # 🎓 YouTube Lecture Assistant (RAG Pipeline)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Streamlit-1.40%2B-FF4B4B.svg)](https://streamlit.io/)
+[![Framework](https://img.shields.io/badge/Streamlit-Live%20Cloud-FF4B4B.svg)](https://youtube-lecture-rag-project-uzg83eggbbpeeetpu6gkws.streamlit.app)
 [![LLM](https://img.shields.io/badge/LLM-Groq%20%7C%20Llama%203.3-f55036.svg)](https://groq.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+> 🚀 **Live Demo:** Try the app directly in your browser at **[youtube-lecture-rag-project-uzg83eggbbpeeetpu6gkws.streamlit.app](https://youtube-lecture-rag-project-uzg83eggbbpeeetpu6gkws.streamlit.app)**
 
 An in-memory **Retrieval-Augmented Generation (RAG)** pipeline that extracts transcripts from educational YouTube videos, chunks them with sliding-window overlap, performs keyword retrieval, and answers user questions with strictly grounded responses powered by **Groq** high-speed inference.
 
